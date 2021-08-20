@@ -51,3 +51,12 @@ function area (height, width) {
 console.log(area(3, 4))
 console.log(area(4))
 
+
+function hello() {
+    // let arguments = 'string xxxxx'
+
+    console.log('hello world ' + arguments[0] + arguments[1])
+}
+
+hello(1, 2)
+hello('Bitan ', 'Atarthy')
